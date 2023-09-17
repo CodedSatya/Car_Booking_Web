@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Caveat:wght@400;500;600;700&display=swap');
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -5,83 +7,77 @@
   font-family: sans-serif;
 }
 
-
-
-.connections a{
-  text-decoration: none;
-  color: rgb(183, 180, 180);
-  padding: 0.5rem 2rem;
-  
-}
-
-.connections p{
-  text-decoration: none;
-  color: rgb(183, 180, 180);
-  padding: 0.5rem 2rem;
-  
-}
-.socials a{
-  text-decoration: none;
-  color: rgb(183, 180, 180);
-  padding: 0.5rem 2rem;
-  
-}
-.socials p{
-  text-decoration: none;
-  color: rgb(183, 180, 180);
-  /* padding: 0.5rem 2rem; */
-  
-}
-
-
-.lowerFooter ul{
+.footer ul{
   background-color: rgb(26, 26, 34);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 20vh;
+  height: auto;
+  color: white;
 }
 
-.socials{
+.getInTouch{
+  list-style-type: none;
+  width: 100%;
+  padding: 20px 60px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.getInTouch h2{
+  margin: 20px 0px;
+}
+.getInTouch a{
+  margin: 20px 0px;
+  text-decoration: none;
+  color: white;
+}
+
+.about{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.about .about_txt{
+  width: 60%;
+  margin: 20px 0px;
+}
 
-.connections{
-  display: flex;
-  color: grey;
+.bar{
+  list-style-type: none;
+  height: 40vh;
+  border: 1px solid grey;
 }
 
 
+.logo{
+  /* font-family: 'Caveat', cursive; */
+
+  font-family: 'Bruno Ace', cursive;
+  font-family: 'Bruno Ace SC', cursive;
+  font-family: 'Caveat', cursive;
+  font-size: xx-large;
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 600px){
-  .lowerFooter ul{
-    background-color: rgb(26, 26, 34);
-    display: flex;
+  .footer ul{
+    
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 20vh;
-  }
-
-  .socials a{
-    text-decoration: none;
-    color: rgb(183, 180, 180);
-    padding: 0.5px 2px;
     
   }
 
-  .connections a{
-    
-    padding: 0.5rem 2rem;
-    
-  }
   
-  .connections p{
-    
-    padding: 5px 2px;
-    
+  .bar{
+    list-style-type: none;
+    height: 0vh;
+    width: 70%;
+    border: 1px solid grey;
   }
   
 }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Caveat:wght@400;500;600;700&display=swap');
+
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -22,7 +25,17 @@
 .heroSection h1{
   position: absolute;
   /* top: 0; */
-  color: white;
+  /* color: white; */
+}
+
+.heroTxt{
+  font-family: 'Bruno Ace', cursive;
+  font-family: 'Bruno Ace SC', cursive;
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+  color: rgb(255, 251, 244);
+  filter: drop-shadow(30px 10px 4px rgb(248, 157, 0));
+  font-weight: 500;
 }
 
 .heroImage{
@@ -55,7 +68,7 @@
 .para_contacts{
   /* font-size: 18px; */
   margin-top: 12vh;
-  color: red;
+  color: orange;
 
 }
 

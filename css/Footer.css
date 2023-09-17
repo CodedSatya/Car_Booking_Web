@@ -49,15 +49,39 @@
 }
 
 
-
-
-.upperFooter{
-  height: 30vh;
-  background-color: rgb(28, 28, 42);
-}
-
-
 .connections{
   display: flex;
   color: grey;
+}
+
+
+@media only screen and (max-width: 600px){
+  .lowerFooter ul{
+    background-color: rgb(26, 26, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+  }
+
+  .socials a{
+    text-decoration: none;
+    color: rgb(183, 180, 180);
+    padding: 0.5px 2px;
+    
+  }
+
+  .connections a{
+    
+    padding: 0.5rem 2rem;
+    
+  }
+  
+  .connections p{
+    
+    padding: 5px 2px;
+    
+  }
+  
 }

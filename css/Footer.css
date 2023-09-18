@@ -30,9 +30,12 @@
   margin: 20px 0px;
 }
 .getInTouch a{
-  margin: 20px 0px;
+  margin: 10px 0px;
   text-decoration: none;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about{
